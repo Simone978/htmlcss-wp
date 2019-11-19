@@ -1,0 +1,122 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.container{
+  width: 100%;
+  padding: 55px;
+  background-color: #CDCDCD;
+}
+
+/* corpo pagina */
+
+.container-top:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container-top{
+  margin-bottom: 10px;
+}
+
+/* sezione presentazione */
+
+.reference{
+  float: left;
+  width: 30%;
+  margin-right: 5%;
+  background-color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+}
+.reference h2{
+  padding-bottom: 10px;
+}
+.reference button{
+  background-color: #FF9725;
+  width: 100px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+.reference p{
+  padding-bottom: 20px;
+}
+
+.picture{
+  height: 50px;
+  width: 50px;
+  margin: 0 auto;
+  border-radius: 100%;
+  background-image: url("../img/gatti-905-675x904.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* sezione articoli */
+
+.articles{
+  float: left;
+  width: 65%;
+  background-color: #ffffff;
+}
+.articles-header{
+  width: 96%;
+  margin: 0 auto;
+  line-height: 40px;
+  border-bottom: 2px solid grey;
+  padding-bottom: 10px;
+}
+
+.article{
+  width: 96%;
+  margin: 0 auto;
+  border-bottom: 2px solid grey;
+  padding: 5px 10px;
+}
+.article:last-child{
+  border-bottom: none;
+}
+.article:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.article p{
+  padding: 20px 10px;
+}
+
+.article-img{
+  float: left;
+  width: 50px;
+  height: 80px;
+  background-image: url("../img/6123519_so.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-right: 5px;
+}
+
+/* sezione footer */
+
+.piepagina{
+  width: 100%;
+  background-color: #ffffff;
+  padding: 10px;
+}
+.piepagina h3{
+  padding-bottom: 10px;
+}
+
+.reference, .articles, .piepagina{
+  border-radius: 5px;
+}
