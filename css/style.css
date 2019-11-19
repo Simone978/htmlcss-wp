@@ -121,13 +121,32 @@ main:after{
   width: 24%;
   background: #ffffff;
   border-radius: 5px;
-  padding: 3px 1px;
+  padding: 3px 10px;
 }
 .col-left li{
-  color: green;
-  font-weight: bold;
   list-style: none;
   padding-bottom: 3px;
+}
+.col-left a{
+  color: green;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.col-left-header i{
+  font-size: 30px;
+  padding-right: 8px;
+}
+
+.col-left-header h2{
+  display: inline-block;
+  width: 10%;
+}
+
+.col-left-header:after{
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* colonna centro */
