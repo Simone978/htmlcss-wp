@@ -48,6 +48,7 @@ body{
   border: none;
   font-size: 20px;
   font-weight: bold;
+  cursor: pointer;
 }
 .reference p{
   padding-bottom: 20px;
