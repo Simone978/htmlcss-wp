@@ -168,8 +168,7 @@ main:after{
 /* sezione footer */
 
 .piepagina{
-  position: relative;
-  height: 150px;
+  position: relative;;
   background-color: #ffffff;
   margin-bottom: 20px;
   border-radius: 5px;
@@ -178,7 +177,7 @@ main:after{
 
 .credential{
   width: 98%;
-  margin: auto;
+  margin: 0 auto;
   font-style: italic;
   font-weight: bold;
   font-size: 18px;
@@ -187,10 +186,18 @@ main:after{
 }
 
 .social{
-  height: 140px;
-  line-height: 140px;
   font-size: 50px;
 }
-.social i{
-  margin-left: 22%;
+
+.social::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.social-box{
+  float: left;
+  width: calc(100% / 3);
+  text-align: center;
+  padding: 25px 0;
 }
