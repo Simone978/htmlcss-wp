@@ -11,28 +11,26 @@ body{
 .container{
   width: 70%;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 /* sezione testata */
 
 header{
   height: 550px;
+  position: relative;
 }
 
 .header-top{
   position: relative;
   height: 500px;
-  background-color: #ffffff;
+
 }
 .header-top .logo{
   position: absolute;
-  height: 430px;
-  width: 95%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: red;
+  height: 500px;
+  width: 100%;
+  border: 10px solid #ffffff;
   background-image: url('../img/default-header.jpg');
   background-size: cover;
   background-position: center;
@@ -59,7 +57,7 @@ header{
 
 .header-top .title i{
   display: block;
-  font-size: 50px;
+  font-size: 60px;
 }
 
 
