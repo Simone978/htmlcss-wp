@@ -184,6 +184,7 @@ main:after{
 .credential{
   width: 98%;
   margin: 0 auto;
+  color: lightgrey;
   font-style: italic;
   font-weight: bold;
   font-size: 18px;
