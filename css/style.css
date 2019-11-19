@@ -1,0 +1,175 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url('../img/default-pattern.png');
+}
+
+.container{
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+/* sezione testata */
+
+header{
+  height: 550px;
+}
+
+.header-top{
+  position: relative;
+  height: 500px;
+  background-color: #ffffff;
+}
+.header-top .logo{
+  position: absolute;
+  height: 430px;
+  width: 95%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: red;
+  background-image: url('../img/default-header.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.header-top .title{
+  position: absolute;
+  color: #ffffff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-transform: uppercase;
+}
+.header-top .title h1{
+  font-size: 250%;
+  border: 2px solid #ffffff;
+  margin-bottom: 50px;
+}
+.header-top .title h2{
+  font-size: 150%;
+}
+
+.header-bottom .menu{
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+}
+
+/* sezione menu */
+
+.menu li{
+  display: inline-block;
+  list-style: none;
+  padding: 0 15px;
+  border-left: 1px solid black;
+}
+.menu li:first-child{
+  border-left: none;
+}
+.menu li:hover{
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.menu a{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+/* sezione main */
+
+main{
+  margin: 2% 0;
+}
+main:after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.formatting{
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+}
+.formatting h2{
+  margin-bottom: 25px;
+}
+
+.icon {
+  color: #FAA501;
+}
+
+/* colonna sinistra */
+
+.float-left{
+  float: left;
+}
+
+.col-left{
+  width: 24%;
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 3px 1px;
+}
+.col-left li{
+  color: green;
+  font-weight: bold;
+  list-style: none;
+  padding-bottom: 3px;
+}
+
+/* colonna centro */
+
+.col-center{
+  width: 46%;
+  margin: 0 3%;
+}
+
+/* colonna destra */
+
+.col-right{
+  width: 24%;
+}
+.col-right .element{
+  margin-bottom: 15px;
+}
+
+/* sezione footer */
+
+.piepagina{
+  position: relative;
+  height: 150px;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  color: lightgrey;
+}
+
+.credential{
+  width: 98%;
+  margin: auto;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  border-bottom: 2px solid lightgrey;
+}
+
+.social{
+  height: 140px;
+  line-height: 140px;
+  font-size: 50px;
+}
+.social i{
+  margin-left: 22%;
+}
