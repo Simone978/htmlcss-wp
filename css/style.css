@@ -84,6 +84,10 @@ header{
   background-color: rgba(0, 0, 0, 0.6);
 }
 
+.active{
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
 .menu a{
   text-decoration: none;
   font-weight: bold;
@@ -109,6 +113,7 @@ main:after{
 }
 .formatting h2{
   margin-bottom: 25px;
+  text-shadow: 2px 2px lightgrey;
 }
 
 .icon {
@@ -141,12 +146,10 @@ main:after{
   font-size: 30px;
   padding-right: 8px;
 }
-
 .col-left-header h2{
   display: inline-block;
   width: 10%;
 }
-
 .col-left-header:after{
   content: "";
   display: table;
@@ -189,19 +192,15 @@ main:after{
   border-bottom: 2px solid lightgrey;
 }
 
-.social{
-  font-size: 50px;
-}
-
 .social::after{
   content: "";
   display: table;
   clear: both;
 }
-
 .social-box{
   float: left;
   width: calc(100% / 3);
+  font-size: 50px;
   text-align: center;
   padding: 25px 0;
 }
