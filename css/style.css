@@ -179,7 +179,6 @@ main:after{
   background-color: #ffffff;
   margin-bottom: 20px;
   border-radius: 5px;
-  color: lightgrey;
 }
 
 .credential{
@@ -203,4 +202,13 @@ main:after{
   font-size: 50px;
   text-align: center;
   padding: 25px 0;
+}
+
+.social-box a{
+  text-decoration: none;
+  color: lightgrey;
+}
+
+.social-box a:hover{
+  color: grey;
 }
